@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA92B57B26B624A300D42040 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA92B57A26B624A300D42040 /* FruitRowView.swift */; };
 		BAFB65B226AE5A6800399368 /* UsingUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB65B126AE5A6800399368 /* UsingUIApp.swift */; };
 		BAFB65B426AE5A6800399368 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFB65B326AE5A6800399368 /* ContentView.swift */; };
 		BAFB65B626AE5A6900399368 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFB65B526AE5A6900399368 /* Assets.xcassets */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA92B57A26B624A300D42040 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
 		BAFB65AE26AE5A6800399368 /* UsingUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UsingUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFB65B126AE5A6800399368 /* UsingUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingUIApp.swift; sourceTree = "<group>"; };
 		BAFB65B326AE5A6800399368 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 			children = (
 				BAFB65C226AE5F2700399368 /* FruitCardView.swift */,
 				BAFB65C426AF370300399368 /* StartButtonView.swift */,
+				BA92B57A26B624A300D42040 /* FruitRowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,6 +190,7 @@
 			files = (
 				BAFB65C326AE5F2700399368 /* FruitCardView.swift in Sources */,
 				BAFB65C526AF370300399368 /* StartButtonView.swift in Sources */,
+				BA92B57B26B624A300D42040 /* FruitRowView.swift in Sources */,
 				BAFB65CA26AF6C6300399368 /* FruitModel.swift in Sources */,
 				BAFB65CC26AF6D1200399368 /* OnboardingView.swift in Sources */,
 				BAFB65CF26AF7D4000399368 /* FruitsData.swift in Sources */,

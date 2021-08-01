@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct UsingUIApp: App {
-    
+    @Environment(\.presentationMode) var mode: Binding<PresentationMode>
     @AppStorage("isOnboarding") var isOnboarding: Bool = true
     var body: some Scene {
         WindowGroup {
