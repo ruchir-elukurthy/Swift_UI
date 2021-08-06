@@ -9,13 +9,16 @@ import SwiftUI
 
 struct FruitNutrients: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        GroupBox {
+            DisclosureGroup("Nutrients") {
+                Text("hello");
+            }.accentColor(.black)
+        }
     }
 }
 
 struct FruitNutrients_Previews: PreviewProvider {
     static var previews: some View {
         FruitNutrients()
-            .preferredColorScheme(.dark)
     }
 }

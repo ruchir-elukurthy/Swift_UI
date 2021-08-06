@@ -22,7 +22,8 @@ struct FruitDetailView: View {
                         .multilineTextAlignment(.leading)
                     SourceLink()
                         .padding(.top, 10)
-                        .padding(.bottom, 40)
+                        .padding(.bottom, 10)
+                    FruitNutrients();
                 }
                 .padding(.horizontal)
                 .frame(maxWidth: 640, alignment: .center)
